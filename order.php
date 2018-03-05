@@ -1,5 +1,6 @@
 <?php 
     define("PAGE_TITLE", "Beställning");
+    define("BANNER_TITLE", "Beställningssidan");
     include "header.php";
     
 ?>
@@ -34,8 +35,9 @@
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto rounded-circle" src="Bilder/firstPage.jpg" alt="">
-        <h1 class="text-uppercase mb-0">Välkommen till vår webshop!</h1>
+        <h1 class="text-uppercase mb-0"><?=BANNER_TITLE?></h1>
         <hr class="star-light">
+        <h2 class="font-weight-light mb-0">Retrobutiken</h2><br>
         <h2 class="font-weight-light mb-0">Antikt - Vintage - Retro</h2>
       </div>
     </header>
