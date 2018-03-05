@@ -115,8 +115,9 @@
                 </div>
                 <div class='form-group row'>
                     <div class='col-sm-12'>
-                        <input type='reset' value='Rensa' class='btn btn-primary'>
-                        <button type='submit' class='btn btn-primary'>Skicka beställning</button>
+                        
+                        <button type='reset' class='btn btn-primary btn-lg rounded-pill'><i class='	fa fa-trash-o'></i> Rensa</button>
+                        <button type='submit' class='btn btn-primary btn-lg rounded-pill'><i class='fa fa-send-o'></i> Skicka beställning</button>
                     </div>
                 </div>
             </form>";
