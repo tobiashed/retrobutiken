@@ -9,6 +9,29 @@
   padding: 1.5rem, 0, 1.5rem, 0;
 }
 
+.card {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 5%;
+  border: #128f76 1px solid; 
+  color: #128f76;
+  text-align: center;
+}
+.cardRow {
+  margin-right: 15px;
+  margin-left: 15px;
+  
+}
+.cardImg {
+  margin-top: 15px;
+  border-radius:15%;
+  border: #128f76 2px solid; 
+}
+.cardName {
+  font-size: 1.5rem; 
+  text-align: center;
+}
+
 body {
   font-family: 'Lato';
 }

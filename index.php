@@ -105,70 +105,64 @@
     </section> <!-- Avslutar portfolio-segmentet -->
 
     <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">Om Retrobutiken</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Retrobutiken grundades 2018 av tre passionerade entusiaster med stor smak för äldre saker. 
-            </p>
-          </div>
-          <div class="col-lg-4 mr-auto">
+<section class="bg-primary text-white mb-0" id="about">
+  <div class="container">
+    <h2 class="text-center text-uppercase text-white">Om Retrobutiken</h2>
+    <hr class="star-light mb-5">
+    <div class="row">
+      <div class="col-lg-4 ml-auto">
+        <p class="lead">Retrobutiken grundades 2018 av tre passionerade entusiaster med stor smak för äldre saker. 
+        </p>
+      </div> <!-- en kolumn slut -->
+      <div class="col-lg-4 mr-auto">
             <p class="lead">Fast egentligen är det slutuppgiften i backend-kursen för KVALIT17 under vårterminen 2018. 
             <br>...eller så har vi stor smak för äldre saker, vem vet?</p>
-          </div>
-        </div>
+      </div> <!-- en kolumn slut -->
+    </div> <!-- row slut -->
+  </div> <!-- containern slut -->   
 
-      </div>
-    </section>
+  <!-- Starta raden med kort-kolumnerna -->
+  <div class="row cardRow">
 
-        
-</div>
+  <!-- Starta en kolumn: Tobias-->
+  <div class="col-sm-4">
+    <div class="card w-100">
+      <img class="card-img-top img-fluid cardImg" src="Bilder/tobias.jpg" alt="Tobias Hedkvist">
+      <div class="card-body">
+         <p class="card-title cardName">Tobias Hedkvist </p>
+        <p class="card-text"></p>
+        <p>Mailadress: <br> <a href="">tobias.hedkvist@yh.nackademin.se</a></p>
+      </div> <!-- card body -->
+    </div> <!-- card -->
+  </div> <!-- col -->
 
+  <!-- Starta en kolumn: Susanne -->
+  <div class="col-sm-4">
+    <div class="card">
+      <img class="card-img-top img-fluid cardImg" src="Bilder/susanne.jpg" alt="">
+      <div class="card-body">
+         <p class="card-title cardName">Susanne Fridh </p>
+        <p class="card-text"></p>
+        <p>Mailadress: <br> <a href="">susanne.fridh@yh.nackademin.se</a></p>
+      </div> <!-- card body -->
+    </div> <!-- card -->
+  </div> <!-- col -->
 
-<!-- Starta raden med kort-kolumnerna -->
-<div class="row">
+  <!-- Starta en kolumn: Anna-Maja  -->
+  <div class="col-sm-4">
+    <div class="card">
+      <img class="card-img-top img-fluid cardImg" src="Bilder/annamaja.jpg" alt="">
+      <div class="card-body">
+           <p class="card-title cardName">Anna-Maja Lithner </p>
+          <p class="card-text"></p>
+          <p>Mailadress: <br> <a href="">anna-maja.lithner@yh.nackademin.se</a></p>
+      </div> <!-- card body -->
+    </div> <!-- card -->
+  </div> <!-- col -->
 
-<!-- Starta en kolumn: Tobias-->
-<div class="col-sm-4">
-  <div class="card">
-    <img class="card-img-top thumbnail" src="Bilder/tobias.jpg" alt="Tobias Hedkvist">
-    <div class="card-body">
-      <h5 class="card-title">Tobias Hedkvist</h5>
-      <p class="card-text"></p>
-      <p>Mailadress: <a href="">tobias.hedkvist@yh.nackademin.se</a></p>
-    </div> <!-- card body -->
-  </div> <!-- card -->
-</div> <!-- col -->
-
-<!-- Starta en kolumn: Susanne -->
-<div class="col-sm-4">
-  <div class="card">
-    <img class="card-img-top img-fluid" src="Bilder/susanne.jpg" alt="">
-    <div class="card-body">
-      <h5 class="card-title">Susanne Fridh</h5>
-      <p class="card-text"></p>
-      <p>Mailadress: <a href="">susanne.fridh@yh.nackademin.se</a></p>
-    </div> <!-- card body -->
-  </div> <!-- card -->
-</div> <!-- col -->
-
-<!-- Starta en kolumn: Anna-Maja  -->
-<div class="col-sm-4">
-  <div class="card">
-     <img class="card-img-top" src="Bilder/annamaja.jpg" alt="">
-     <div class="card-body">
-         <h5 class="card-title">Anna-Maja Lithner</h5>
-         <p class="card-text"></p>
-         <p>Mailadress: <a href="">anna-maja.lithner@yh.nackademin.se</a></p>
-     </div> <!-- card body -->
-  </div> <!-- card -->
-</div> <!-- col -->
-
-<!-- avslutar raden -->
-</div>
-
+  <!-- avslutar raden -->
+  </div>
+</section>
     <!-- Contact Section -->
     <section id="contact">
       <div class="container" id="kontakt">
