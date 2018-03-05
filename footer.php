@@ -12,7 +12,7 @@
           <div class="col-md-4">
             <hr class="star-light mb-5">
             <br><br><br>
-            <a href="viewOrders.php">Admin</a>
+            <a href="viewOrders.php#portfolio">Admin</a>
           </div>
           <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Här kan du följa oss</h4>
