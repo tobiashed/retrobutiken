@@ -218,7 +218,11 @@
           </div>
         </div>
         <div class="text-center mt-4">
-          <a class="btn btn-primary btn-xl" href="products/api/index.php">
+        <!-- AML länk till Café Retro "http://localhost/backend-assignments/cafe-retro/index.php" -->
+        <p class="lead"> Gör som <a href="#"target="_blank">Café Retro - </a> <br>
+      
+          </p> 
+                    <a class="btn btn-primary btn-xl" href="products/api/index.php">
             <i class="fa fa-download mr-2"></i>
             Använd vår API
           </a>
