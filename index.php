@@ -170,8 +170,11 @@
           <h2 class="text-center text-uppercase">Vill du veta mer</h2><br>
           <h2 class="text-center text-uppercase">eller bli återförsäljare?</h2> 
           <hr class="star-dark mb-5">
-          <p> Fyll i dina kontaktuppgifter nedan, så hör vi av oss. <br>
+          <p class="lead"> Fyll i dina kontaktuppgifter nedan, så hör vi av oss. <br>
             Vi ser fram emot att höra hur vi kan samarbeta! 
+          </p>
+          <p>
+            Vill du använda vår API, finns en länk nedanför kontaktformuläret.
           </p>
         <div class="row">
           <div class="col-lg-8 mx-auto">
