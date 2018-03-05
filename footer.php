@@ -3,12 +3,19 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">2215 John Daniel Drive
-              <br>Clark, MO 65243</p>
+            <h4 class="text-uppercase mb-4">Retrobutiken</h4>
+            <p class="lead mb-0">Tomtebodavägen 3A
+              <br>171 65 Solna
+            <br>Mail: retrobutiken@webshopen.se
+            <br>Telefon: 08-88 88 88</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="star-light mb-5">
+            <br><br><br>
+            <a href="viewOrders.php">Admin</a>
           </div>
           <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
+            <h4 class="text-uppercase mb-4">Här kan du följa oss</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
                 <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
@@ -37,18 +44,13 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-          </div>
         </div>
       </div>
     </footer>
 
     <div class="copyright py-4 text-center text-white">
       <div class="container">
-        <small>Copyright &copy; Your Website 2018</small>
+        <small>Copyright &copy; <?= date("Y");?> <br> Tobias Hedkvist &bull; Anna-Maja Lithner &bull; Susanne Fridh</small>
       </div>
     </div>
 
