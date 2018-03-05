@@ -32,7 +32,7 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+        <img class="img-fluid mb-5 d-block mx-auto rounded-circle" src="Bilder/firstPage.jpg" alt="">
         <h1 class="text-uppercase mb-0">Välkommen till vår webshop!</h1>
         <hr class="star-light">
         <h2 class="font-weight-light mb-0">Antikt - Vintage - Retro</h2>
@@ -100,36 +100,83 @@
     </div>
         
       <?php }; ?> <!-- Avsluta loop -->
-          
       </div> 
-    </section>
+    </section> <!-- Avslutar portfolio-segmentet -->
 
     <!-- About Section -->
     <section class="bg-primary text-white mb-0" id="about">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">Om oss</h2>
+        <h2 class="text-center text-uppercase text-white">Om Retrobutiken</h2>
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p class="lead">Retrobutiken grundades 2018 av tre passionerade entusiaster med stor smak för äldre saker. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <p class="lead">Fast egentligen är det slut-uppgiften i backend-kursen för KVALIT17 under vårterminen 2018. 
+            <br>...eller så har vi stor smak för äldre saker, vem vet?</p>
           </div>
         </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="products/api/index.php">
-            <i class="fa fa-download mr-2"></i>
-            Använd vår API
-          </a>
-        </div>
+
       </div>
     </section>
 
+        
+</div>
+
+
+<!-- Starta raden med kort-kolumnerna -->
+<div class="row">
+
+<!-- Starta en kolumn: Tobias-->
+<div class="col-sm-4">
+  <div class="card">
+    <img class="card-img-top thumbnail" src="Bilder/tobias.jpg" alt="Tobias Hedkvist">
+    <div class="card-body">
+      <h5 class="card-title">Tobias Hedkvist</h5>
+      <p class="card-text">Lorem ipsum dolor sit.</p>
+      <p>Mailadress: <a href="">tobias.hedkvist@yh.nackademin.se</a></p>
+    </div> <!-- card body -->
+  </div> <!-- card -->
+</div> <!-- col -->
+
+<!-- Starta en kolumn: Susanne -->
+<div class="col-sm-4">
+  <div class="card">
+    <img class="card-img-top img-fluid" src="Bilder/susanne.jpg" alt="">
+    <div class="card-body">
+      <h5 class="card-title">Susanne Fridh</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+      <p>Mailadress: <a href="">susanne.fridh@yh.nackademin.se</a></p>
+    </div> <!-- card body -->
+  </div> <!-- card -->
+</div> <!-- col -->
+
+<!-- Starta en kolumn: Anna-Maja  -->
+<div class="col-sm-4">
+  <div class="card">
+     <img class="card-img-top" src="Bilder/annamaja.jpg" alt="">
+     <div class="card-body">
+         <h5 class="card-title">Anna-Maja Lithner</h5>
+         <p class="card-text">Lorem ipsum dolor sit.</p>
+         <p>Mailadress: <a href="">anna-maja.lithner@yh.nackademin.se</a></p>
+     </div> <!-- card body -->
+  </div> <!-- card -->
+</div> <!-- col -->
+
+<!-- avslutar raden -->
+</div>
+
     <!-- Contact Section -->
     <section id="contact">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Kontakta oss</h2>
+      <div class="container" id="kontakt">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="text-center text-uppercase">Vill du veta mer</h2><br>
+          <h2 class="text-center text-uppercase">eller bli återförsäljare?</h2> <br>
+          <p> Fyll i dina kontaktuppgifter nedan, så hör vi av oss. <br>
+            Vi ser fram emot att höra hur vi kan samarbeta! 
+          </p>
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -171,6 +218,12 @@
               </div>
             </form>
           </div>
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn-primary btn-xl" href="products/api/index.php">
+            <i class="fa fa-download mr-2"></i>
+            Använd vår API
+          </a>
         </div>
       </div>
     </section>
