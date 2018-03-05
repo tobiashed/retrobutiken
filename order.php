@@ -9,7 +9,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.php#page-top">Webshop</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.php#page-top">Retrobutiken</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Meny
           <i class="fa fa-bars"></i>
@@ -115,8 +115,9 @@
                 </div>
                 <div class='form-group row'>
                     <div class='col-sm-12'>
-                        <input type='reset' value='Rensa' class='btn btn-primary'>
-                        <button type='submit' class='btn btn-primary'>Skicka beställning</button>
+                        
+                        <button type='reset' class='btn btn-primary btn-lg rounded-pill'><i class='	fa fa-trash-o'></i> Rensa</button>
+                        <button type='submit' class='btn btn-primary btn-lg rounded-pill'><i class='fa fa-send-o'></i> Skicka beställning</button>
                     </div>
                 </div>
             </form>";
