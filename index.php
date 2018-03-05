@@ -111,11 +111,11 @@
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Retrobutiken grundades 2018 av tre passionerade entusiaster med stor smak för äldre saker. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p class="lead">Retrobutiken grundades 2018 av tre passionerade entusiaster med stor smak för äldre saker. 
             </p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">Fast egentligen är det slut-uppgiften i backend-kursen för KVALIT17 under vårterminen 2018. 
+            <p class="lead">Fast egentligen är det slutuppgiften i backend-kursen för KVALIT17 under vårterminen 2018. 
             <br>...eller så har vi stor smak för äldre saker, vem vet?</p>
           </div>
         </div>
@@ -160,7 +160,7 @@
      <img class="card-img-top" src="Bilder/annamaja.jpg" alt="">
      <div class="card-body">
          <h5 class="card-title">Anna-Maja Lithner</h5>
-         <p class="card-text">Lorem ipsum dolor sit.</p>
+         <p class="card-text"></p>
          <p>Mailadress: <a href="">anna-maja.lithner@yh.nackademin.se</a></p>
      </div> <!-- card body -->
   </div> <!-- card -->
